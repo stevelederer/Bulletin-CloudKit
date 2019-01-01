@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // MARK: - This tests the save function
+//        MessageController.shared.saveMessageToCloudKit(text: "First Message Test") { (message) in
+//            print(message?.text ?? "Message did not save 🤷‍♂️")
+//        }
+        
+        // MARK: - This tests the fetch function
+//        MessageController.shared.fetchAllMessageFromCloudKit { (messages) in
+//            print(messages ?? [])
+//        }
+        
         return true
     }
 
